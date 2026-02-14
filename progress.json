@@ -1,0 +1,94 @@
+{
+  "current_phase": 1,
+  "current_week": 1,
+  "started_at": "2025-02-13",
+  "tasks": {
+    "phase1_week1_fastapi_basics": {
+      "status": "completed",
+      "started_at": "2025-02-13",
+      "completed_at": "2025-02-14",
+      "notes": "FastAPIの基本（ルーティング、リクエスト/レスポンスモデル、Pydantic）\n--- 学習ログ ---\n2/13: 環境構築完了、GET/POSTエンドポイント作成、Pydantic BaseModel基礎まで\n2/14: オプショナルフィールド、TODO API CRUD完成"
+    },
+    "phase1_week1_async_basics": {
+      "status": "completed",
+      "started_at": "2025-02-14",
+      "completed_at": "2025-02-14",
+      "notes": "非同期処理の基礎（async/await）\n--- 学習ログ ---\n2/14: async/await、asyncio.gather()で並行実行を体験"
+    },
+    "phase1_week1_todo_api": {
+      "status": "completed",
+      "started_at": "2025-02-14",
+      "completed_at": "2025-02-14",
+      "notes": "課題: TODOアプリのREST APIを作成\n--- 学習ログ ---\n2/14: CRUD実装完了、HTTPExceptionでエラーハンドリング追加、課題完了"
+    },
+    "phase1_week3_postgresql": {
+      "status": "not_started",
+      "started_at": null,
+      "completed_at": null,
+      "notes": "PostgreSQLの基本操作（SQLクエリ、テーブル設計）"
+    },
+    "phase1_week3_orm": {
+      "status": "not_started",
+      "started_at": null,
+      "completed_at": null,
+      "notes": "SQLAlchemy or Prisma でのORM操作"
+    },
+    "phase1_week3_migration": {
+      "status": "not_started",
+      "started_at": null,
+      "completed_at": null,
+      "notes": "マイグレーション（Alembic）"
+    },
+    "phase1_week3_todo_db": {
+      "status": "not_started",
+      "started_at": null,
+      "completed_at": null,
+      "notes": "課題: TODOアプリにDB接続を追加、ユーザー認証を実装"
+    },
+    "phase1_week5_docker": {
+      "status": "not_started",
+      "started_at": null,
+      "completed_at": null,
+      "notes": "Dockerの基本（Dockerfile、docker-compose）"
+    },
+    "phase1_week5_container_setup": {
+      "status": "not_started",
+      "started_at": null,
+      "completed_at": null,
+      "notes": "コンテナ内でのFastAPI + PostgreSQL環境構築"
+    },
+    "phase1_week5_aws_basics": {
+      "status": "not_started",
+      "started_at": null,
+      "completed_at": null,
+      "notes": "AWS基礎（EC2 or Lambda + API Gateway）"
+    },
+    "phase1_week5_todo_deploy": {
+      "status": "not_started",
+      "started_at": null,
+      "completed_at": null,
+      "notes": "課題: TODOアプリをDocker化してクラウドにデプロイ"
+    },
+    "phase1_week7_pytest": {
+      "status": "not_started",
+      "started_at": null,
+      "completed_at": null,
+      "notes": "テスト駆動開発（pytest）"
+    },
+    "phase1_week7_api_design": {
+      "status": "not_started",
+      "started_at": null,
+      "completed_at": null,
+      "notes": "API設計のベストプラクティス（OpenAPI/Swagger）"
+    },
+    "phase1_week7_iot_api": {
+      "status": "not_started",
+      "started_at": null,
+      "completed_at": null,
+      "notes": "総合課題: IoTデバイス管理APIを設計・実装・デプロイ"
+    }
+  },
+  "challenge_scores": [],
+  "test_scores": [],
+  "weekly_hours_log": []
+}
