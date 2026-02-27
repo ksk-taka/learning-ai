@@ -1,7 +1,7 @@
-from sqlalchemy import Integer, String, Boolean
+from sqlalchemy import Integer, String, Boolean, DateTime,ForeignKey
 from sqlalchemy.orm import Mapped, mapped_column
 from database import Base
-
+from datetime import datetime
 
 class Todo(Base):
     """
@@ -17,3 +17,12 @@ class Todo(Base):
     id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)
     name: Mapped[str] = mapped_column(String(255), nullable=False)
     done: Mapped[bool] = mapped_column(Boolean, default=False)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.now)
+    user_id: Mapped[int] = mapped_column(Integer,  ForeignKey("users.id"), nullable=False)  # 外部キー（ユーザID）
+
+class User(Base):
+    __tablename__ = "users"
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True, index=True)
+    username: Mapped[str] = mapped_column(String(50), unique=True, nullable=False)
+    hashed_password: Mapped[str] = mapped_column(String(255), nullable=False)

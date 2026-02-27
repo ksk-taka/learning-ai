@@ -1,6 +1,6 @@
 {
   "current_phase": 1,
-  "current_week": 1,
+  "current_week": 3,
   "started_at": "2025-02-13",
   "tasks": {
     "phase1_week1_fastapi_basics": {
@@ -22,28 +22,28 @@
       "notes": "課題: TODOアプリのREST APIを作成\n--- 学習ログ ---\n2/14: CRUD実装完了、HTTPExceptionでエラーハンドリング追加、課題完了"
     },
     "phase1_week3_postgresql": {
-      "status": "not_started",
-      "started_at": null,
-      "completed_at": null,
-      "notes": "PostgreSQLの基本操作（SQLクエリ、テーブル設計）"
+      "status": "completed",
+      "started_at": "2026-02-14",
+      "completed_at": "2026-02-14",
+      "notes": "PostgreSQLの基本操作（SQLクエリ、テーブル設計）\n--- 学習ログ ---\n2/14: Docker上のPostgreSQLでCRUD操作、WHERE/LIKE絞り込み、SERIAL型の挙動を確認"
     },
     "phase1_week3_orm": {
-      "status": "not_started",
-      "started_at": null,
-      "completed_at": null,
-      "notes": "SQLAlchemy or Prisma でのORM操作"
+      "status": "completed",
+      "started_at": "2026-02-14",
+      "completed_at": "2026-02-14",
+      "notes": "SQLAlchemy でのORM操作\n--- 学習ログ ---\n2/14: モデル定義、query/filter/first/all、Depends（依存性注入）、FastAPIの引数自動判別を理解"
     },
     "phase1_week3_migration": {
-      "status": "not_started",
-      "started_at": null,
-      "completed_at": null,
-      "notes": "マイグレーション（Alembic）"
+      "status": "completed",
+      "started_at": "2026-02-14",
+      "completed_at": "2026-02-14",
+      "notes": "マイグレーション（Alembic）\n--- 学習ログ ---\n2/14: alembic init、autogenerate、server_defaultでNOT NULLカラム追加、upgrade/downgradeの仕組みを理解"
     },
     "phase1_week3_todo_db": {
-      "status": "not_started",
-      "started_at": null,
-      "completed_at": null,
-      "notes": "課題: TODOアプリにDB接続を追加、ユーザー認証を実装"
+      "status": "completed",
+      "started_at": "2026-02-19",
+      "completed_at": "2026-02-19",
+      "notes": "課題: TODOアプリにDB接続を追加、ユーザー認証を実装\n--- 学習ログ ---\n2/19: Userモデル作成、Alembicマイグレーション、auth.py（bcryptハッシュ化+JWT）、register/loginエンドポイント、OAuth2PasswordBearerでTODOをユーザーごとに紐付け完了"
     },
     "phase1_week5_docker": {
       "status": "not_started",
